@@ -1,0 +1,36 @@
+{
+	"name": "randtypes",
+	"version": "0.0.1",
+	"description": "A library for generating random values for different types (number, boolean, key in an object, and index in an array).",
+	"keywords": ["random"],
+	"homepage": "http://dpearson.me/randtypes/",
+	"bugs": {
+		"url": "https://github.com/dpearson/randtypes/issues",
+		"email": "dpearson@dpearson.me"
+	},
+	"license": "BSD-2-Clause",
+	"author": {
+		"name": "David Pearson",
+		"url": "http://dpearson.me"
+	},
+
+	"main": "./lib/index.js",
+	"directories": {
+		"lib": "./lib"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dpearson/randtypes.git"
+	},
+
+	"dependencies": {
+	},
+	"devDependencies": {
+		"oven-build": "0.x.x"
+	},
+	"engines": {
+		"node": "0.10.x",
+		"npm": "1.4.x"
+	}
+}
